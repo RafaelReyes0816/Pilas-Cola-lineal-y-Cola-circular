@@ -14,7 +14,7 @@ namespace Tarea_2
                 Console.Clear();
                 // Menú principal para elegir la estructura a gestionar
                 Console.WriteLine("=== Menú Principal ===");
-                Console.WriteLine("1. Gestionar Cola Lineal (Banco)");
+                Console.WriteLine("1. Gestionar Cola Lineal (Soporte Técnico)");
                 Console.WriteLine("2. Gestionar Pila (Stack)");
                 Console.WriteLine("3. Gestionar Cola Circular");
                 Console.WriteLine("4. Salir");
