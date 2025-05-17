@@ -61,7 +61,7 @@ Tarea-2/
 
 ## Créditos
 
-Desarrollado por [Tu Nombre] para la materia de Estructuras de Datos.
+Desarrollado por Juan Rafael Reyes Burgos para la materia de Estructuras de Datos.
 
 ---
 
