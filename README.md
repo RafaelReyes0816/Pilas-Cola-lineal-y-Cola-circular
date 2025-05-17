@@ -1,6 +1,8 @@
 # Tarea 2 - Tipos Abstractos de Datos en C#
 
-Este proyecto es una aplicación de consola en C# que ejemplifica el uso de **estructuras de datos abstractas** (TAD) como **Cola Lineal**, **Pila** y **Cola Circular**. Cada estructura está encapsulada en su propia clase y se integra en un menú interactivo para demostrar su funcionamiento.
+## Objetivo
+
+El objetivo de esta actividad es que los estudiantes apliquen los conocimientos aprendidos en clase sobre tipos abstractos de datos, estructuras TAD como Pilas, Cola lineal y Cola circular mediante la creación de una aplicación sencilla en C#. Se debe identificar un problema simple y proponer su solución programada, promoviendo el análisis lógico, la estructuración del código y la solución efectiva de problemas mediante la programación.
 
 ---
 
