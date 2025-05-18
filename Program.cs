@@ -11,8 +11,8 @@ namespace Tarea_2
             int opcionPrincipal;
             do
             {
-                Console.Clear();
                 // Menú principal para elegir la estructura a gestionar
+                Console.Clear();
                 Console.WriteLine("=== Menú Principal ===");
                 Console.WriteLine("1. Gestionar Cola Lineal (Soporte Técnico)");
                 Console.WriteLine("2. Gestionar Pila (Stack)");
@@ -222,7 +222,7 @@ namespace Tarea_2
         // Submenú para la Cola Circular (FIFO con capacidad fija)
         static void MenuColaCircular()
         {
-            int capacidad = 5; // Capacidad máxima de la cola circular
+            int capacidad = 5;
             ColaCircular<string> colaCircular = new ColaCircular<string>(capacidad);
             int opcion;
             do
