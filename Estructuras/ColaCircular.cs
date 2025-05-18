@@ -24,7 +24,7 @@ namespace Tarea_2.Estructuras
         {
             if (EstaLlena())
                 throw new InvalidOperationException("La cola circular está llena.");
-            final = (final + 1) % capacidad; // Movimiento circular
+            final = (final + 1) % capacidad;
             elementos[final] = item;
             cantidad++;
         }
@@ -34,7 +34,7 @@ namespace Tarea_2.Estructuras
             if (EstaVacia())
                 throw new InvalidOperationException("La cola circular está vacía.");
             T valor = elementos[frente];
-            frente = (frente + 1) % capacidad; // Movimiento circular
+            frente = (frente + 1) % capacidad;
             cantidad--;
             return valor;
         }

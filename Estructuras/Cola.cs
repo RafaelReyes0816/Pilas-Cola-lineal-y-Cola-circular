@@ -7,9 +7,9 @@ namespace Tarea_2.Estructuras
     {
         private Queue<T> queue = new Queue<T>();
 
-        public void Encolar(T elemento) => queue.Enqueue(elemento); // Agrega al final
-        public T Desencolar() => queue.Dequeue();                   // Quita del frente
-        public T VerFrente() => queue.Peek();                       // Consulta el frente
+        public void Encolar(T elemento) => queue.Enqueue(elemento);
+        public T Desencolar() => queue.Dequeue();
+        public T VerFrente() => queue.Peek();
         public bool EstaVacia() => queue.Count == 0;
         public int Contar() => queue.Count;
     }

@@ -8,9 +8,9 @@ namespace Tarea_2.Estructuras
     {
         private Stack<T> stack = new Stack<T>();
 
-        public void Push(T item) => stack.Push(item);   // Agrega a la cima
-        public T Pop() => stack.Pop();                  // Quita de la cima
-        public T Peek() => stack.Peek();                // Consulta la cima
+        public void Push(T item) => stack.Push(item);
+        public T Pop() => stack.Pop();
+        public T Peek() => stack.Peek();
         public bool EstaVacia() => stack.Count == 0;
         public int Contar() => stack.Count;
     }
